@@ -422,6 +422,8 @@ export interface ApiPortfolioPagePortfolioPage extends Struct.SingleTypeSchema {
       'api::portfolio-page.portfolio-page'
     > &
       Schema.Attribute.Private;
+    location: Schema.Attribute.String;
+    name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     sections: Schema.Attribute.DynamicZone<
       [
