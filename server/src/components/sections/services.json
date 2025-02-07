@@ -2,14 +2,15 @@
   "collectionName": "components_sections_services",
   "info": {
     "displayName": "Services",
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "service_item": {
       "displayName": "Service Item",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "ui.service-item"
     }
   }

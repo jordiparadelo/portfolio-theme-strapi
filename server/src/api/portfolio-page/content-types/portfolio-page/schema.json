@@ -4,7 +4,7 @@
   "info": {
     "singularName": "portfolio-page",
     "pluralName": "portfolio-pages",
-    "displayName": "Portfolio Page",
+    "displayName": "Home Page",
     "description": ""
   },
   "options": {
@@ -24,8 +24,16 @@
         "sections.services",
         "sections.list-of-services",
         "sections.features-works",
-        "sections.about-description"
+        "sections.about-description",
+        "sections.porfolio"
       ]
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

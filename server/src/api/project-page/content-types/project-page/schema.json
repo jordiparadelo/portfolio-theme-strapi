@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_pages",
+  "info": {
+    "singularName": "project-page",
+    "pluralName": "project-pages",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

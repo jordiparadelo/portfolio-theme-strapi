@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_sections_features_works",
+  "collectionName": "components_ui_portfolio_items",
   "info": {
-    "displayName": "Features Works",
-    "icon": "stack",
+    "displayName": "Portfolio Item",
     "description": ""
   },
   "options": {},

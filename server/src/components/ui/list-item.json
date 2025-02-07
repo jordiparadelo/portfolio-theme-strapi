@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_list_items",
+  "info": {
+    "displayName": "List Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

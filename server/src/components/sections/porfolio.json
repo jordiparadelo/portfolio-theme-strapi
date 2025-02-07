@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_porfolios",
+  "info": {
+    "displayName": "Porfolio"
+  },
+  "options": {},
+  "attributes": {
+    "portfolio_item": {
+      "displayName": "Portfolio Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.portfolio-item"
+    }
+  }
+}
