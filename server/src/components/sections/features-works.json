@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_features_works",
+  "info": {
+    "displayName": "Features Works",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.feature-image"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_list_of_services",
+  "info": {
+    "displayName": "List of Services",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "services_list": {
+      "type": "enumeration",
+      "enum": [
+        "Design System",
+        "Gsap Animations",
+        "Webflow Developer"
+      ]
+    }
+  }
+}
