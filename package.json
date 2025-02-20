@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix client\""
+    "start": "concurrently \"npm run develop --prefix server\" \"npm run dev --prefix client\"",
+    "build": "concurrently \"npm run start --prefix server\" \"npm run build --prefix client\""
   },
   "author": "",
   "license": "ISC",
